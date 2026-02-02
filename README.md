@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **knock_here@keemail.me**
 
-<h3 align="left">Connect with me:</h3>
+
 <p align="left">
 </p>
 
