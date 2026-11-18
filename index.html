@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Family Drive, a private family file drive.">
+  <title>Family Drive - Private Family Storage</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f7f9fc;
+      color: #172033;
+      display: flex;
+      flex-direction: column;
+    }
+    header, footer {
+      padding: 24px 8%;
+      background: white;
+    }
+    header { border-bottom: 1px solid #e8edf3; }
+    .logo { font-size: 21px; font-weight: 700; }
+    main {
+      flex: 1;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .content { max-width: 650px; }
+    .icon { font-size: 60px; margin-bottom: 20px; }
+    h1 { font-size: clamp(36px, 6vw, 56px); margin: 0 0 18px; }
+    p { color: #64748b; font-size: 18px; line-height: 1.7; }
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-top: 40px;
+    }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { text-align: center; color: #94a3b8; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">📁 Family Drive</div>
+  </header>
+
+  <main>
+    <div class="content">
+      <div class="icon">🔐</div>
+      <h1>Family Drive</h1>
+      <p>A private family file drive.</p>
+      <p>Keep your family's files in one private place, with storage powered by your family's own Google Drive accounts.</p>
+
+      <div class="links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Family Drive. For private family use.
+  </footer>
+</body>
+</html>
